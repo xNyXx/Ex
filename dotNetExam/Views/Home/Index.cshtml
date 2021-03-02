@@ -1,0 +1,25 @@
+﻿@using dotNetExam.Data
+@model System.Collections.Concurrent.ConcurrentQueue<SitePage>
+
+@{
+    ViewData["Title"] = "Form";
+}
+
+<form method="post">
+    <input type="text" name="link">
+    <input type="number" name="level">
+    <input type="number" name="count">
+    <input type="submit">
+</form>
+
+@if (Context.Request.Method == "POST")
+{
+    @foreach(var sitePage in Model)
+    {
+        <p>
+            @sitePage.Url 
+                <br>
+            @sitePage.Body.Substring(0, 100)
+        </p>
+    }
+}

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ildar\\Desktop\\Ex\\dotNetExam\\dotNetExam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ildar\\Desktop\\Ex\\dotNetExam\\dotNetExam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ildar\\Desktop\\Ex\\dotNetExam\\dotNetExam.csproj",
+        "projectName": "dotNetExam",
+        "projectPath": "C:\\Users\\Ildar\\Desktop\\Ex\\dotNetExam\\dotNetExam.csproj",
+        "packagesPath": "C:\\Users\\Ildar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ildar\\Desktop\\Ex\\dotNetExam\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ildar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.30, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
